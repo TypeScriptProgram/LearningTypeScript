@@ -93,4 +93,25 @@ let a1:sankhya;
 
 
 
-// 
+// class
+
+class Device{
+    name = "Samsung";
+    price = 150000;
+    category = "Digital"
+}
+
+let d1  = new Device();
+let d2 = new Device();
+
+
+class BottleMaker{
+    constructor(public name:string,public price:number,public size:string){
+        this.name = name;
+        this.price = price;
+        this.size = size;
+    }
+}
+
+let b1 = new BottleMaker("Milton",1200,"Medium");
+let b2 = new BottleMaker("Shine",899,"Large");

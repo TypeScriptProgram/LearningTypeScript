@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // Tuples
 let arr1 = ["sainath", 15];
 let arr2 = [12, "Pratik"];
@@ -42,5 +41,27 @@ function abcdadmin(obj2) {
 }
 abcdadmin({ name: "sainath", email: "helo@gmail.com", password: "lord", age: 22, admin: true });
 let a1;
-// 
+// class
+class Device {
+    name = "Samsung";
+    price = 150000;
+    category = "Digital";
+}
+let d1 = new Device();
+let d2 = new Device();
+class BottleMaker {
+    name;
+    price;
+    size;
+    constructor(name, price, size) {
+        this.name = name;
+        this.price = price;
+        this.size = size;
+        this.name = name;
+        this.price = price;
+        this.size = size;
+    }
+}
+let b1 = new BottleMaker("Milton", 1200, "Medium");
+let b2 = new BottleMaker("Shine", 899, "Large");
 //# sourceMappingURL=app.js.map
