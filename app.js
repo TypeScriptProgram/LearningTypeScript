@@ -64,4 +64,23 @@ class BottleMaker {
 }
 let b1 = new BottleMaker("Milton", 1200, "Medium");
 let b2 = new BottleMaker("Shine", 899, "Large");
+// this keyword
+// access Modifiers - public private protected
+// readonly Properties
+// optional Properties
+// getters and setters
+// parameter properties
+// static member
+// abstract class and  methods
+// Introduction To functions
+// functions
+// types of functions
+// optional and default parametes
+// rest parameter
+// overload
+// Generics
+// generic function
+// generic interfacs
+// generic classes
+// type guards
 //# sourceMappingURL=app.js.map
